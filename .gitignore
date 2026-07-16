@@ -1,0 +1,15 @@
+# 1. Entornos Virtuales (Esto es lo que más pesa)
+venv_linux/
+venv/
+.venv/
+
+# 2. Caché de Python y compilados
+__pycache__/
+*.pyc
+
+# 3. Variables de Entorno (¡CRÍTICO PARA LA SEGURIDAD!)
+.env
+
+# 4. Archivos de sistema operativo
+.DS_Store
+Thumbs.db
